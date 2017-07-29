@@ -316,7 +316,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 
 #header-wrapper {
-    background: #2053AB;
     color: #fff;
     text-align: center;
     border-bottom: 1px solid #183f81;
@@ -388,7 +387,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #2053AB;
+    background-color: #000;
     position: fixed;
     top: 0;
     width: 300px;
