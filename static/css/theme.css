@@ -80,11 +80,6 @@ body {
   margin-right: 1rem !important;
 }
 
-
-#top-bar {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-
 .btn {
   display: inline-block !important;
   padding: 6px 12px !important;
@@ -153,43 +148,54 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
 }
 
 /* Redfines headers style */
-
 h2, h3, h4, h5, h6 {
-  font-weight: 400;
-  line-height: 1.1;
+    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #5e5e5e;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
 }
 
+h1 {
+    font-size: 2.15rem;
+    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 200;
+}
+
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   line-height: 110% !important;
   margin: 2.5rem 0 1.5rem 0;
   text-transform: capitalize;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 110% !important;
   margin: 2rem 0 1rem 0;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 110% !important;
   margin: 1.5rem 0 0.75rem 0;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 110% !important;
   margin: 1rem 0 0.2rem 0;
 }
 
 h6 {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   line-height: 110% !important;
   margin: 0.5rem 0 0.2rem 0;
 }
@@ -308,13 +314,15 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border-color: #2053AB;
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
 }
+
 #header-wrapper {
     background: #2053AB;
     color: #fff;
     text-align: center;
     border-bottom: 1px solid #183f81;
-    padding: 1rem;
+    padding: 0 1rem 1rem;
 }
+
 #header a {
     display: inline-block;
 }
@@ -549,6 +557,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     position: relative;
     margin-left: 300px;
     min-height: 100%;
+    max-width: 800px;
 }
 #body img, #body .video-container {
     margin: 3rem auto;
@@ -675,22 +684,9 @@ body {
     font-family: "Lato", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: normal;
     line-height: 1.6;
-    font-size: 18px !important;
+    font-size: 15px !important;
 }
-h2, h3, h4, h5, h6 {
-    font-family: "Lato", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    text-rendering: optimizeLegibility;
-    color: #5e5e5e;
-    font-weight: 400;
-    letter-spacing: -1px;
-}
-h1 {
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    color: #222;
-    font-weight: 200;
-}
+
 blockquote {
     border-left: 10px solid #F0F2F4;
 }
@@ -1126,12 +1122,10 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #F6F6F6;
-    border-radius: 2px;
     margin: 0rem -1rem 2rem;
     padding: 0 1rem;
     height: 0;
-    min-height: 3rem;
+    min-height: 1rem;
 }
 #top-github-link {
     position: relative;
